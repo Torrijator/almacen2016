@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub		
+		// TODO Auto-generated method stub	superchachi	
 		Scanner sc	=	new Scanner(System.in);
 		
 		int numero1, numero2, resultado;{
-		System.out.print("Introduce primer número: ");
+		System.out.print("Introduce primer nÃºmero: ");
 		
 		numero1 = sc.nextInt();
-		System.out.print("Introduce segundo número: ");
+		System.out.print("Introduce segundo nÃºmero: ");
 		numero2 = sc.nextInt(); 
 		resultado = suma(numero1, numero2);
 		System.out.println("Suma: " + resultado);
